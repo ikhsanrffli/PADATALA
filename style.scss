@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Shadows+Into+Light+Two');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+.wrapper {
+  .parallax-container {
+    display: flex;
+    align-items: stretch;
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    .parallax {
+      flex: 1 1 auto;
+      background-image: url("https://i.pinimg.com/originals/e0/57/44/e05744161d7500a183d5ec3a38a6e626.jpg");
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      width: 120%;
+      height: 120%;
+      top: -10%;
+      left: -10%;
+      right: -10%;
+      bottom: -10%;
+      color: #dcdcdc;
+      text-align: center;
+      h1 {
+        font-size: 6rem;
+        line-height: 6.75rem;
+        font-family: 'Permanent Marker', cursive;
+        letter-spacing: 3px;
+        margin: 0;
+      }
+      .line{
+        border-style: solid;
+        border-width: .05rem;
+        margin: .5rem 0;
+      }
+      span{
+        font-family: 'Shadows Into Light Two', cursive;
+        font-weight: bold;
+        letter-spacing: 1px;
+      }
+    }
+  }
+  .text-container {
+    padding: 10vh 10vw;
+    text-align: center;
+    .text-block {
+      h5 {
+        font-size: 2.5rem;
+        margin: 0;
+      }
+    }
+  }
+}
